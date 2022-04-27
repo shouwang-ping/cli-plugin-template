@@ -1,5 +1,5 @@
 {
-  "name": "cli-plugin-template",
+  "name": "@shouwang-ping/cli-plugin-template",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
