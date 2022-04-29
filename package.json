@@ -1,5 +1,5 @@
 {
-  "name": "@shouwang-ping/cli-plugin-template",
+  "name": "@ping-home/sailfish-cli-plugin-land",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,13 +8,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/shouwang-ping/cli-plugin-template.git"
+    "url": "git+https://github.com/shouwang-ping/sailfish-cli-plugin-land.git"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/shouwang-ping/cli-plugin-template/issues"
-  },
-  "homepage": "https://github.com/shouwang-ping/cli-plugin-template#readme"
+  "license": "ISC"
 }

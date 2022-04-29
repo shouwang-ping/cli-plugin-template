@@ -7,18 +7,13 @@ module.exports = (api, options) => {
   if (options.vueVersion === '18') {
     api.extendPackage({
       dependencies: {
-        'react': '^18.0.0',
-        '@ping-home/rice': "1.0.1"
+        '@ping-home/sailfish': "1.0.1"
       }
     })
   } else {
     api.extendPackage({
       dependencies: {
-        'react': '^17.0.0',
-        '@ping-home/rice': "1.0.1"
-      },
-      devDependencies: {
-        'vue-template-compiler': '^2.6.14'
+        '@ping-home/sailfish': "1.0.1"
       }
     })
   }
