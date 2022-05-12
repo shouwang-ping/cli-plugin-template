@@ -7,13 +7,13 @@ module.exports = (api, options) => {
   if (options.vueVersion === '18') {
     api.extendPackage({
       dependencies: {
-        '@ping-home/sailfish': "1.0.1"
+        '@ping-home/sailfish': "latest"
       }
     })
   } else {
     api.extendPackage({
       dependencies: {
-        '@ping-home/sailfish': "1.0.1"
+        '@ping-home/sailfish': "latest"
       }
     })
   }
@@ -54,25 +54,5 @@ module.exports = (api, options) => {
     api.extendPackage({
       devDependencies: deps[options.cssPreprocessor]
     })
-  }
-
-  // for v3 compatibility
-  if (options.router && !api.hasPlugin('router')) {
-    require('./router')(api, options, options)
-  }
-
-  // for v3 compatibility
-  if (options.vuex && !api.hasPlugin('vuex')) {
-    require('./vuex')(api, options, options)
-  }
-
-  // additional tooling configurations
-  if (options.configs) {
-    api.extendPackage(options.configs)
-  }
-
-  // Delete jsconfig.json when typescript
-  if (api.hasPlugin('typescript')) {
-    api.render((files) => delete files['jsconfig.json'])
   }
 }
