@@ -20,8 +20,11 @@ module.exports = (api, options) => {
 
   api.extendPackage({
     scripts: {
-      'serve': 'sailfish serve',
-      'build': 'sailfish build'
+      "dev": "rice dev",
+      "build": "rice build",
+      "color": "rice color",
+      "theme": "rice theme",
+      "newPage": "rice newPage"
     },
     browserslist: [
       '> 1%',
