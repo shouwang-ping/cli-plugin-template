@@ -1,10 +1,18 @@
 {
   "name": "@ping-home/sailfish-cli-plugin-land",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "rice dev",
+    "build": "rice build",
+    "color": "rice color",
+    "theme": "rice theme",
+    "newPage": "rice newPage",
+    "plop": "plop --plopfile ./node_modules/@ping-home/rice/scripts/plopfile-js.js",
+    "prepare": "husky install",
+    "lint": "rice lint",
+    "vitedev": "vite"
   },
   "repository": {
     "type": "git",
