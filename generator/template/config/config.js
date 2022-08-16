@@ -17,6 +17,7 @@ export default defineConfig({
     SSR: false,
     remoteRuntime: true
   },
+  fastfresh: true, // 快速刷新
   vite: false,
   isForceLint: true,
   tract: {
