@@ -3,6 +3,10 @@ export default defineConfig({
   delopMode: 'assets',
   applyType: 'console',
   hash: true, // 按package.json 生成版本号
+  layout: {},
+  openApi: {
+
+  },
   antd: {},
   qiankun: {
 
